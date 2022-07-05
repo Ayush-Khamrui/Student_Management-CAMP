@@ -1,0 +1,105 @@
+
+.s{
+  color: #00fe50;
+  text-align: center;
+}
+.sm{
+  display: flex;
+ 
+  justify-content: center;
+  
+  
+}
+.hd{
+  background-color: rgb(25, 24, 34);
+  opacity: 90%;
+}
+.in{
+    text-align: center;
+}
+.l{  
+  
+  text-align: center;
+  color: #fafafa;
+  margin-left: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.pk{
+   
+    font-style: italic;
+    color:#fe0000;
+    animation: animate 1.3s linear infinite;
+    display: inline;
+  } 
+  @keyframes animate{
+    100%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.8;
+    }
+    0%{
+        opacity: 1;
+      }
+  }
+.c{
+  display: inline;
+  width: 8%;
+
+}
+.ca{
+  display: inline;
+  width: 12%;
+
+}
+
+.cc{
+  display: inline;
+  width: 12%;
+}
+.cb{
+  display: inline;
+  width: 9%;
+
+}
+.np{
+    display: inline;
+    font-family: serif;
+    color:#ffffff;
+  } 
+
+  @keyframes glowing {
+    0% {
+      color: #2ba805;
+      text-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      color: #49e819;
+      text-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      color: #2ba805;
+      text-shadow: 0 0 5px #2ba805;
+    }
+  }
+  .but {
+    animation: glowing 1300ms infinite;
+  }
+
+  .jp{
+    font-family: serif;
+    color:#ffffff;
+    font-size: 30px;
+  }
+   
+
+  .set{
+    text-align: center;
+  }
+
+  np:hover{
+    color:coral;
+  }

@@ -1,0 +1,69 @@
+#meet-our-creator{
+  align-items: center;
+  margin-top: 5%;
+
+}
+
+
+.hl {
+  border-radius: 12px;
+    box-sizing: border-box;
+    color: aliceblue;
+    margin-left: 0%;
+    text-align: center;
+  }
+  
+
+.card1 {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    max-width: 350px;
+    text-align: center;
+    margin: 2.9%;
+    float: left;
+    text-align: justify;
+  }
+  
+.card2 {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    max-width: 350px;
+    text-align: center;
+    margin: 2.9%;
+    float: left;
+  }
+  
+  .card3 {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    max-width: 350px;
+    text-align: center;
+    margin: 2.9%;
+    float: left;
+  }
+
+
+  
+.card_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+}
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_info {
+    padding:10px;
+    color: white;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color: whitesmoke;
+}
